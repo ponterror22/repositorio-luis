@@ -71,9 +71,10 @@ async function executeQuery(query) {
   });
 }
 
+
 // Rota para a página inicial
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/index.html"); // Envia o arquivo HTML da página inicial
+  res.sendFile(__dirname + "/indexform.html"); // Envia o arquivo HTML da página inicial
 });
 
 // Rota para obter os produtos em formato JSON
